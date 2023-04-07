@@ -1,6 +1,6 @@
 {
   "name": "pingk-vue-loading",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "pingk npm vue 组件",
   "main": "lib/pingk-vue-loading.umd.min.js",
   "keywords": [
