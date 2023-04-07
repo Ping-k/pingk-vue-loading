@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @version: v0.0.1
+ * @Author: ZhouYanPing
+ * @Date: 2023-04-07 09:59:31
+ * @LastEditors: 
+ * @LastEditTime: 2023-04-07 10:16:01
+-->
 # pingk-vue-loading
 
 # 使用教程
@@ -35,6 +43,9 @@ app.config.globalProperties.$message = message;
 
 
 ```
+
+## 示例
+[test](https://github.com/Ping-k/my-vue3-test)
 
 ## Project setup
 ```
