@@ -1,4 +1,40 @@
-# pingk-alert
+# pingk-vue-loading
+
+# 使用教程
+```
+// 1、安装
+npm i pingk-vue-loading  
+
+// 2、全局安装
+import MyModule from 'pingk-vue-loading'  
+import 'pingk-vue-loading/lib/pingk-vue-loading.css'  
+
+let app = createApp(App);  
+
+app.use(MyModule);  
+
+app.mount('#app');  
+
+// 3、使用：App.vue
+<LoadingA></LoadingA>
+<LoadingB></LoadingB>
+
+
+// 4、第三方依赖使用：antdv
+
+安装：npm i --save ant-design-vue
+
+import 'ant-design-vue/dist/antd.css';
+import { Button, message } from 'ant-design-vue';
+
+/* 会自动注册 Button 下的子组件, 例如 Button.Group */
+app.use(Button);
+
+app.config.globalProperties.$message = message;
+
+
+
+```
 
 ## Project setup
 ```

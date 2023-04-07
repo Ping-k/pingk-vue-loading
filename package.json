@@ -1,13 +1,28 @@
 {
-  "name": "pingk-alert",
-  "version": "0.1.0",
-  "private": true,
+  "name": "pingk-vue-loading",
+  "version": "0.2.8",
+  "description": "pingk npm vue 组件",
+  "main": "lib/pingk-vue-loading.umd.min.js",
+  "keywords": [
+    "LoadingA",
+    "LoadingB"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pingk/pingk-vue-loading.git"
+  },
+  "homepage": "https://www.ping-k.cn",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "rm -rf lib && vue-cli-service build --target lib --name pingk-vue-loading --dest lib ./packages/index.js"
   },
+  "license": "ISC",
+  "readmeFilename": "README.md",
   "dependencies": {
+    "ant-design-vue": "^3.2.17",
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
